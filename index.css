@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1509930211477-b995ae92ade0?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1527567018838-584d3468eb85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(255, 50, 50);
+    background:rgb(0,0,0);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -23,10 +23,10 @@ body {
 }
 #spinner {
     animation: rotate 0.56s infinite linear;
-    width:50px;
-    height:50px;
+    width:30px;
+    height:30px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid rgb(255,255,255);
     border-radius:50%;
     margin:0;
 }
@@ -80,73 +80,8 @@ body {
 }
 #middle h1 {
     color:rgb(255, 50, 50);
-    font-size:70px;
-    text-decoration:underline;
-}
-#about {
-    width:10vw;
-    height:10vw;
-    text-align:center;
-    font-size:25px;
-    transform:rotate(-90deg);
-    background:transparent;
-    color:#fff;
-    position:fixed;
-    left:0;
-    bottom:40vh;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    z-index:4;
-    transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
-}
-#work {
-    width:10vw;
-    height:10vw;
-    text-align:center;
-    font-size:25px;
-    transform:rotate(90deg);
-    background:transparent;
-    color:#fff;
-    position:fixed;
-    right:0;
-    bottom:40vh;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    z-index:4;
-    transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
-}
-#contact {
-    width:10vw;
-    height:10vw;
-    text-align:center;
-    font-size:25px;
-    background:transparent;
-    color:#fff;
-    position:fixed;
-    bottom:0;
-    left:45vw;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    z-index:4;
-    transition:0.4s ease-in-out;
-    border-radius:100px 100px 0px 0px;
-}
-#about:hover {
-    background:rgba(255,50,50,0.9);
-    cursor:pointer;
-}
-#work:hover {
-    background:rgba(255,50,50,0.9);
-    cursor:pointer;
-}
-#contact:hover {
-    background:rgba(255,50,50,0.9);
-    cursor:pointer;
+    font-size:50px;
+    text-decoration:none;
 }
 #middle table {
     width:30%;
